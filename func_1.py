@@ -19,12 +19,12 @@ if 3 > 1:
 
 def greet(name = 'mystery', fcolor = 'Yellow' ):
     '''
-    print greeting
-    :return:
+    Greet the person and print favorite color    
+    :param name: the user name 
+    :param fcolor: favorite color
+    :return: 
     '''
     print(f'hello {name} favorite color {fcolor}')
-
-
 
 greet('itay', 'Green')
 greet(3.5)
